@@ -1,0 +1,18 @@
+[project]
+name = "token-counter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.105.2",
+    "pydantic>=2.13.4",
+    "structlog>=25.5.0",
+    "tiktoken>=0.13.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+    "pytest-asyncio>=1.4.0",
+]
