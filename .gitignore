@@ -1,10 +1,19 @@
 # Python-generated files
 __pycache__/
+.ruff_cache
 *.py[oc]
 build/
 dist/
 wheels/
 *.egg-info
+.vscode
+.env
 
 # Virtual environments
 .venv
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
